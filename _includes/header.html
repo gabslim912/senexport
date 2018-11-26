@@ -1,0 +1,85 @@
+<header class="vk-header ">
+        <nav class="vk-navbar  navbar">
+            <div class="container">
+                <div class="vk-navbar-header navbar-header">
+                    <button type="button" class="navbar-toggle vk-navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
+                        <i class="toggle-icon"></i>
+                    </button>
+                    <!--./vk-navbar-toggle-->
+
+                    <a class="vk-navbar-brand navbar-brand" href="/">
+                        {% include logo_svg.html %}
+                        <span class="logo-text text-uppercase">SENEXPORT</span>
+                    </a>
+                    <!--./vk-navbar-brand-->
+
+                </div>
+                <!--./vk-navbar-header-->
+
+                <div class="collapse navbar-collapse vk-navbar-collapse" id="menu">
+                    <ul class="vk-navbar-nav navbar-right">
+                        <li>
+                            <a href="/">Accueil</a>
+                        </li>
+
+                        <li>
+                            <a href="products">Tous les produits</a>
+                        </li>
+
+                        <li>
+                            <a href="a_propos">A Propos</a>
+                        </li>
+
+                        <li>
+                            <a href="/service_client">Service Clientèle</a>
+                        </li>
+
+                        <li>
+                            <a href="/blog">Blog</a>
+                           
+                        </li>
+
+                        <li>
+                            <a href="/contact">Contact</a>
+                           
+                        </li>
+
+
+                        <li class="item-search">
+                            <span class="btn-search hidden-xs hidden-sm" data-toggle="collapse" data-target="#box-search-header"><i class="fa fa-search"></i></span>
+
+                        </li>
+                    </ul>
+                    <!--./vk-navbar-nav-->
+
+                    <div class="box-search-header collapse" id="box-search-header">
+                        <div class="vk-input-group">
+                            <input type="text" name="key" placeholder="Search" class="form-control">
+                            <button class="vk-btn btn-search">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <!--./box-search-header-->
+
+                </div>
+                <!--./vk-navbar-collapse-->
+
+            </div>
+            <!--./container-->
+
+        </nav>
+        <!--./vk-navbar-->
+
+        <div class="vk-header-top hidden-xs hidden-sm">
+            <div class="container">
+                <div class="content">
+                    <ul class="quick-address">
+                        <li>{{ site.tel }}</li>
+                        <li>{{ site.email }}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--./vk-header-top-->
+    </header>
