@@ -1,0 +1,17 @@
+---
+label: produit
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: nom
+  label: Nom
+- type: text
+  name: prix
+  label: prix
+- type: textarea
+  name: description
+  label: Description
+- type: file
+  name: image
+  label: image
