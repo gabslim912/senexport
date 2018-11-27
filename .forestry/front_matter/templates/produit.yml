@@ -26,6 +26,7 @@ fields:
   default: "/uploads/imgproduit.jpg"
 pages:
 - _produits/nom-du-produit.md
+- _produits/nom-du-produit-5.md
 - _produits/nom-du-produit-1.md
 - _produits/nom-du-produit-2.md
 - _produits/nom-du-produit-3.md
