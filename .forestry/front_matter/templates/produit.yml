@@ -24,6 +24,10 @@ fields:
   name: image
   label: image
   default: "/uploads/imgproduit.jpg"
+- type: text
+  name: layout
+  label: layout
+  default: departement
 pages:
 - _produits/nom-du-produit.md
 - _produits/nom-du-produit-5.md
