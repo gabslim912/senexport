@@ -13,6 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+collections:
+  posts:
+    title: Posts
+    output: true
+  produits:
+    title: produits
+    output: true
+    layout: produit
 title: SENEXPORT SENEGAL FRANCE
 email: contact@senexport.com
 tel: 77 654 33 22 - 77 678 99 00
