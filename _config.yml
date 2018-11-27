@@ -23,7 +23,9 @@ collections:
     layout: produit
 title: SENEXPORT SENEGAL FRANCE
 email: contact@senexport.com
-tel: 77 654 33 22 - 77 678 99 00
+tel: 77 181 62 91 - 77 501 75 77
+adresse_dakar: Médina rue 37x28 Dakar Sénégal
+adresse_paris: 19, Avenue Moderne 75 019 Paris France
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
