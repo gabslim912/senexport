@@ -24,3 +24,5 @@ fields:
   name: image
   label: image
   default: "/uploads/imgproduit.jpg"
+pages:
+- _produits/nom-du-produit.md
