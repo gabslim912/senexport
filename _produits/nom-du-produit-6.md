@@ -9,5 +9,6 @@ description: Lorem Khaled Ipsum is a major key to success. Put it this way, it t
   Chef Dee got that they don’t want us to eat. Cloth talk. Mogul talk.
 image: "/uploads/7.jpg"
 date: 2018-11-27 12:03:10 +0000
+layout: departement
 
 ---
